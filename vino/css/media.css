@@ -1,0 +1,154 @@
+@media (max-width:1220px) {
+    .collection__img img{
+        width: 350px;
+    }
+
+    .vine{
+        display: none;
+    }
+
+    .keg{
+        display: none;
+    }
+
+    .registration__line{
+        margin-top: 35px;
+    }
+}
+
+
+@media (max-width:1220px) {
+    .registration__title p{
+        font-size: 28px;
+        width: 360px;
+    }
+    form{
+        max-width: 540px;
+    }
+
+    .input__text{
+            width: 100%;
+    }
+
+    .input__phone{
+            width: 100%;
+            margin-top: 40px;
+    }
+
+    .footer__nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        column-gap: 30px;
+    }
+
+    .footer__nav ul a{
+        margin-left: 0px;
+        
+    }
+
+    .footer__nav ul a:first-child {
+        margin-left: 0px;
+    }
+
+    .footer__description{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footer__description__text{
+        margin-left: 0px;
+        text-align: center;
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .footer__description__social{
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .footer__description__phone{
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .footer__description__social img{
+        margin-left: 0;
+        width: 24px;
+        height: 16px;
+    }
+
+    .footer__description__social .facebook{
+        width: 12px;
+        height: 16px;
+    }
+
+    .footer__description__addr{
+        margin-left: 0px;
+        text-align: center;
+        width: auto;
+        flex-grow: 1;
+    }
+}
+
+
+
+@media (max-width:880px) {
+    .collection__img img{
+        display: none;
+    }
+
+    .footer__description{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .footer__description__text{
+        border-right: none;
+    }
+
+    .footer__description__phone{
+        border-right: none;
+    }
+
+    .footer__description__social{
+        border-right: none;
+        justify-content: center;
+        column-gap: 30px;
+    }
+}
+
+
+@media (max-width:513px) {
+    .header__info{
+        font-size: 14px;
+    }
+
+    .header__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first__header__buttons{
+        margin-right: 0;
+    }
+
+    .second__header__buttons{
+        margin-top: 30px;
+        width: 205px;
+    }
+    
+    .colelction__table__row{
+        height: 120px;
+    }
+
+    .registration__title p{
+        font-size: 18px;
+        width: 240px;
+    }
+}
+
